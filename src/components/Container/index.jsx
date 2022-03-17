@@ -1,5 +1,5 @@
-import TelaInicial from "./TelaInicial";
-import Cards from "./Cards";
+import TelaInicial from '../TelaInicial';
+import Cards from '../Cards';
 
 export default function Container() {
     return (

@@ -1,4 +1,4 @@
-import { Perguntas } from './Perguntas';
+import Perguntas from '../Perguntas';
 
 export default function Cards() {
     return (
