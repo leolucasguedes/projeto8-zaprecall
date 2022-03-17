@@ -1,3 +1,11 @@
-import { useState } from "react";
-import TelaInicial from './components/Tela Inicial';
-import Cards from "./components/Cards";
+import TelaInicial from "./TelaInicial";
+import Cards from "./Cards";
+
+export default function Container() {
+    return (
+      <main>
+       <TelaInicial />
+       <Cards />
+      </main>
+    );
+  }
