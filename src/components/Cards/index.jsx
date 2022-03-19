@@ -12,7 +12,7 @@ export default function Cards() {
           <Logo src="./assets/logo.png"></Logo>
           <Titulo>ZapRecall</Titulo>
         </BoxLogo>
-        {PerguntasARR.map((pergunta, index) => <Perguntas key={pergunta.numero} numero={pergunta.numero} />)}
+        {PerguntasARR.map((pergunta, index) => <Perguntas key={pergunta.index} numero={pergunta.numero} />)}
       </Main>
     );
   }
