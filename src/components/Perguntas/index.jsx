@@ -8,8 +8,8 @@ export default function Perguntas(props) {
     </BoxPergunta>
   );
 }
-/*
-export default function PerguntasAbertas(props) {
+
+/*function PerguntasAbertas(props) {
   return (
     <BoxResposta>
         <TextoPergunta> { props.texto } </TextoPergunta>
