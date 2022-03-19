@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Main = styled.main`
    width: 203px;
    height: 381px;
-   background-color: background: #FB6B6B;
+   background-color: #FB6B6B;
    display: flex;
-   flex-wrap: columm;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 `;
@@ -26,11 +26,12 @@ export const Titulo = styled.h1`
 `;
 
 export const Inicio = styled.button`
-   width: 116px;
-   height: 13px;
+   width: 141px;
+   height: 31px;
    margin-top: 73px;
    background-color: #FFFFFF;
    border: solid 1px #D70900;
+   border-radius: 5px;
    box-shadow: 0 4 4 0 #000000 15%;
    font-size: 12px;
    font-family: 'Recursive', sans-serif;
