@@ -62,7 +62,7 @@ export const TextoPergunta = styled.h1`
 
 export const Butoes = styled.div`
   width: 299px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -122,12 +122,6 @@ export const RespostaCerta = styled.h1`
   text-decoration: line-through; 
 `;
 
-/*export const IconeCerto = styled.ion-icon`
-   font-size: 15px;
-   color: #2FBE34;
-`;
-<ion-icon name="checkmark-circle"></ion-icon>*/
-
 export const RespostaQuase = styled.h1`
   font-size: 16px;
   font-family: 'Recursive', sans-serif;
@@ -140,12 +134,6 @@ export const RespostaQuase = styled.h1`
   text-decoration: line-through; 
 `;
 
-/*export const IconeQuase = styled.ion-icon`
-   font-size: 15px;
-   color: #FF922E;
-`;
-<ion-icon name="help-circle"></ion-icon>*/
-
 export const RespostaErrada = styled.h1`
   font-size: 16px;
   font-family: 'Recursive', sans-serif;
@@ -157,9 +145,3 @@ export const RespostaErrada = styled.h1`
   margin-top: 5px;
   text-decoration: line-through; 
 `;
-
-/*export const IconeErrado = styled.ion-icon`
-   font-size: 15px;
-   color: #2FBE34;
-`;
-<ion-icon name="close-circle"></ion-icon>*/

@@ -60,7 +60,7 @@ export default function Cards() {
           resposta={pergunta.resposta}
         />
       ))}
-         <Baixo> </Baixo>
+      <Baixo> </Baixo>
     </Main>
   );
 }
