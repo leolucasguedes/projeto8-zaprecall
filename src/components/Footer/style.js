@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Fundo = styled.footer`
-   width: 203px;
-   height: 50px;
+   height: 70px;
    background-color: #FFFFFF;
    display: flex;
    justify-content: center;
@@ -15,9 +14,9 @@ export const Fundo = styled.footer`
 `;
 
 export const TextoConcluido = styled.h1`
-   font-size: 12px;
+   font-size: 18px;
    font-family: 'Recursive', sans-serif;
    font-weight: 400;
-   line-height: 14.4px;
+   line-height: 21.6px;
    color: #333333;
 `;
